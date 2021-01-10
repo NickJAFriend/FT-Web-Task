@@ -5,5 +5,5 @@
 >It's amazing that the amount of news that happens in the world every day always just exactly fits the newspaper - Jerry Seinfeld
 
 ```
-A great conjunction |  Jupiter & Saturn  |  occured() =>  undefined
+A great conjunction between |  Jupiter & Saturn  |  occured() on the *21t December 2020*
 ```
