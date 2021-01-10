@@ -9,7 +9,14 @@ This is a task that has been set by the Financial Times. The target is to:
 
 ### Let us begin...
 ***
-This code indicates that the process will be analysed for performance.
+This code indicates that the process will be analysed for performance. We use the perf_hooks module (native to node.js) to gather a time in milliseconds, right now.
 ```
-performance.now()
+const {performance} = require('perf_hooks')
+let _start = performance.now()
 ```
+Protecting the timer will allow us to have better access to our meta information - this is why we use the _ prefix.
+This came from the infamous underscore.js - an invaluable library to develop and manipulate data, long before ECMA6... Many thanks to them...
+
+
+
+
