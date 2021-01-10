@@ -1,4 +1,3 @@
-![The Financial Times](https://images.app.goo.gl/dSxyHs2Nbqn15Zpq6)\
 # FT Web-Task
 
 ## Welcome to the Web Task... 
@@ -19,6 +18,7 @@ Protecting the timer will allow us to have better access to our meta information
 This came from the infamous underscore.js - an invaluable library to develop and manipulate data, long before ECMA6.\\
 See this [Link to Underscore.JS](https://underscorejs.org/) - their libraries are very useful and provide efficient and fast acting resources.
 
+### If we can monitor performance, we can truly understand why we are computing...\
 
 
 
