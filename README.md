@@ -5,5 +5,5 @@
 >It's amazing that the amount of news that happens in the world every day always just exactly fits the newspaper
 
 ```
-Conjunction occured()
+Conjunction | mars & Jupiter |  occured()
 ```
