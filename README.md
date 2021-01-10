@@ -1,3 +1,4 @@
+![The Financial Times](https://images.app.goo.gl/dSxyHs2Nbqn15Zpq6)\
 # FT Web-Task
 
 ## Welcome to the Web Task... 
