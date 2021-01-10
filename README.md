@@ -1,7 +1,7 @@
 # FT-Web-Task
 
 ## Welcome to the Web Task... 
-This is a task that has been set by the Financial Times. The game is to: 
+This is a task that has been set by the Financial Times. The target is to: 
  - fetch an array of URLs which contain JSON data
  - return their contents in a promise
   
