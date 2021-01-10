@@ -1,4 +1,4 @@
-# FT-Web-Task
+# FT Web-Task
 
 ## Welcome to the Web Task... 
 This is a task that has been set by the Financial Times. The target is to: 
