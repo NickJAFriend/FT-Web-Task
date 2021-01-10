@@ -6,7 +6,7 @@
 
 ### Let us begin...
 ***
-This code indicates that the satck will be analysed for performance.
+This code indicates that the process will be analysed for performance.
 ```
 performance.now()
 ```
