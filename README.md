@@ -16,7 +16,7 @@ let _start = performance.now()
 ```
 Protecting the timer will allow us to have better access to our meta information - this is why we use the _ prefix.
 This came from the infamous underscore.js - an invaluable library to develop and manipulate data, long before ECMA6.
-See this [Link to Underscore.JS](https://underscorejs.org/)
+See this [Link to Underscore.JS](https://underscorejs.org/) - their libraries are very useful and provide efficient and fast acting resources.
 
 
 
