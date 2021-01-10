@@ -8,3 +8,4 @@ Let us begin...
 ```
 performance.now()
 ```
+This code indicates that the satck will be analysed for performance.
