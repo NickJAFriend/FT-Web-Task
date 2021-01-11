@@ -1,4 +1,4 @@
-# FT Web-Task
+# FT-Web-Task
 
 ## Welcome to the Web Task... 
 This is a task that has been set by the Financial Times. The target is to: 
@@ -32,10 +32,20 @@ See [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) - the diagram
 
 It is of course the timer that measures the actual data to solve the *Big O* solution into **real** terms. We incorperate the timer measures in the code. This is a simple logical compromise but it is necessary to be able to calculate the **real** solution. 
 
+Our time computation calculation code is completed using the following statement which follows on from the above code snippet.
+```
+let _stop = performance.now()
+let _timetaken = _stop - _start
+```
+
+Typically when computing time efficiency in Node.JS, it is best to execute the final performance task
 ***
 
 ### Part one of the solution -> Fetching the results of the urls in JSON and placing them in an array...
 
-Node.JS includes an http class but the joy of using Node.JS is the middleware that is available so simply via the require interface and the node pacakge manager (NPM).
+Node.JS includes an http interface but the joy of using Node.JS is the middleware that is available so simply via the require interface and the node pacakge manager (NPM). The 'http' interface is a joy to use but it includes both client and server architecture and so isn't entirely suitable for a lean approach to fetching data.
+The 'fetch' interface is however entirely suitable for this. It has minimal, effective methods to find the outcome in HTTP (for example a 200 'status' code which equals 'OK' from the headers of the HTTP response and then retreive the data or 'body' of the HTTP response) and even parse the data into JSON rather than leaving it in UTF-8 or whatever encoding/ charset the HTTP webserver has given the body to us in. 
+
+The interface provided is ample to 
 
 
