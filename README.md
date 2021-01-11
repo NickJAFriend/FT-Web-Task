@@ -20,8 +20,9 @@ This came from the infamous underscore.js - an invaluable library to develop and
 See this [Link to Underscore.JS](https://underscorejs.org/) - their libraries are very useful and provide efficient and fast acting resources.
 
 ### Efficeincy - Measuring with and without time...
-***
+
 > If we can monitor performance, we can truly understand why we are computing...
+***
 
 As we measure our code time and time again, with time, we find that our figures vary. 
 This is due to a range of factors such as CPU load, priority, other programs being used by the interpreted language or other factors. It is quite important to use a machine for time testing that is not executing too much other code - i.e. is (mostly) idle. 
