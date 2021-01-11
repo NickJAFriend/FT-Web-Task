@@ -10,7 +10,7 @@ This is a task that has been set by the Financial Times. The target is to:
 ### Let us begin...
 ***
 This code indicates that the process will be analysed for performance. We use the perf_hooks module (native to node.js) to gather a time in milliseconds, right now.
-```
+```javascript
 const {performance} = require('perf_hooks')
 let _start = performance.now()
 ```
@@ -33,7 +33,7 @@ See [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) - the diagram
 It is of course the timer that measures the actual data to solve the *Big O* solution into **real** terms. We incorperate the timer measures in the code. This is a simple logical compromise but it is necessary to be able to calculate the **real** solution. 
 
 Our time computation calculation code is completed using the following statement which follows on from the above code snippet.
-```
+```javascript
 let _stop = performance.now()
 let _timetaken = _stop - _start
 ```
