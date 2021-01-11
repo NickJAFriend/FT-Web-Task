@@ -19,19 +19,23 @@ This came from the infamous underscore.js - an invaluable library to develop and
 
 See this [Link to Underscore.JS](https://underscorejs.org/) - their libraries are very useful and provide efficient and fast acting resources.
 
-### Efficeincy - Measuring with and without time...
+### Efficiency - Measuring with and without time...
 
-> If we can monitor performance, we can truly understand why we are computing...
+> If we can monitor performance, we can truly understand the merits of different solutions... it is the essence of computing...
 ***
 
 As we measure our code time and time again, with time, we find that our figures vary. 
 This is due to a range of factors such as CPU load, priority, other programs being used by the interpreted language or other factors. It is quite important to use a machine for time testing that is not executing too much other code - i.e. is (mostly) idle. 
-Thinking with efficiency in mind gives us a reasonable idea of how efficient our solutions are, in time, so we can measure computing in a logical, algegraic way and solve our solutions without having to prototype again and again. 
+Thinking with efficiency in mind gives us a reasonable idea of how efficient our solutions are, in time, so we can measure computing in a logical, algegraic way and solve our solutions without having to prototype again and again. Once you understand time notation *(Big O notation)* you can always learn from your prototypes...
 
 See [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) - the diagrams should show the difference between the linear, contstant and exponential approaches to alogirthms and how they can be expressed. 
 
-It is of course the timer that measures the actual data to solve the *Big O* solution into **real** terms.
+It is of course the timer that measures the actual data to solve the *Big O* solution into **real** terms. We incorperate the timer measures in the code. This is a simple logical compromise but it is necessary to be able to calculate the **real** solution. 
 
 ***
+
+### Part one of the solution -> Fetching the results of the urls in JSON and placing them in an array...
+
+Node.JS includes an http class but the joy of using Node.JS is the middleware that is available so simply via the require interface and the node pacakge manager (NPM).
 
 
