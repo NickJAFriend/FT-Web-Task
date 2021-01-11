@@ -55,8 +55,8 @@ To calculate the average time the computation occurs in you can use the same app
 
 Node.JS includes an http interface but the joy of using Node.JS is the middleware that is available so simply via the require interface and the node pacakge manager (NPM). 
 The 'http' interface is a joy to use but it includes both client and server architecture and so isn't entirely suitable for a lean approach to fetching data.
-The 'fetch' interface is however entirely suitable for this. It is available from the NPM library, so must be included in the package.json dependency field and also installed.
-It has minimal, effective methods to find the outcome in HTTP (for example a 200 'status' code which means 'OK' from the headers of the HTTP response and then retreive the data or 'body' of the HTTP response) and even a method to parse the data into JSON rather than leaving it in UTF-8 or whatever encoding or 'charset' the HTTP webserver has given the body of the response in. 
+The 'node-fetch' interface is however entirely suitable for this. It is available from the NPM library, so must be included in the package.json dependency field and also installed.
+It has minimal, effective methods to GET web resources with HTTP (for example a 200 'status' code which means 'OK' from the headers of the HTTP response and then retreive the data or 'body' of the HTTP response) and even a method to parse the data into JSON rather than leaving it in UTF-8 or whatever encoding or 'charset' the HTTP webserver has given the body of the response in. 
 
 The code provided in the task problem sheet (shown below) shows a function ready to call the URIs (API endpoints) asynchronously. Upon retreiving that Promise's resolve, it gives space for the coder to handle the data and complete the aforementioned task (to fetch the URIs and return a promise containing a single array with the data inside).
 
@@ -92,7 +92,10 @@ function requestMultipleUrls(urls){
 }
 ```
 
-The function uses Promise.all() which holds the CPU until it has executed *every* line of code and retreived a resolution where needed before executing any .then() functions. In total the Promise method supports seven methods... These are shown below. See if you can follow the logic. The main note is that the fianlly clause will execute even if an error is thrown... If you wish for further explaination please see (this link for the documentation on Promises)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise].
+The function uses Promise.all() which holds the CPU until it has executed *every* line of code and retreived a resolution where needed before executing any .then() functions. 
+In total the Promise method supports seven methods... These are shown below. 
+See if you can follow the logic. The main note is that the fianlly clause will execute even if an error is thrown... 
+If you wish for further explaination please see (this link for the documentation on Promises)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise].
 
 ```javascript
 Promise.all( () => {
@@ -113,3 +116,8 @@ let canItBeTrue = new Promise((resolve,reject) => {
 .catch( (error) => { doSomethingUponRejection(error) } )
 .finally( () => { doSomethingAfterALLThingsHaveExecuted() })
 ```
+
+***
+
+The next methods worth explaining are parseJSON() and checkStatus(). These are shown below.
+The parseJSON() method uses the .json() method in the 'node-fetch' library to turn the output into JavaScript Object Notation
