@@ -24,5 +24,5 @@ See this [Link to Underscore.JS](https://underscorejs.org/) - their libraries ar
 As we measure our code time and time again, with time, we find that our figures vary. \
 This is due to a range of factors such as CPU load, priority, other programs being used by the interpreted language or other factors. It is quite important to use a machine for time testing that is not executing too much other code... i.e. is (mostly) idle. \
 Measuring with time gives us a reasonable idea of how efficient our constants are, in time, so we can measure computing in a logical, algegraic way. \
-See [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) - the diagrams should show the difference between the linear, contstant and expenential approaches to alogirthms and how they can be expressed. It is of course the timer that measures the actual data to solve the *Big O* solution. \
+See [Big O Notation](https://en.wikipedia.org/wiki/Big_O_notation) - the diagrams should show the difference between the linear, contstant and expenential approaches to alogirthms and how they can be expressed. \ It is of course the timer that measures the actual data to solve the *Big O* solution.
 
