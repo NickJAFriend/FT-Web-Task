@@ -208,4 +208,11 @@ Testing here has only been used to test performance, as results were of type Pro
    * Unit testing is designed for TDD and math - it is slightly overdone if used to test type of a result that has already been redacted. However if TDD is used, it is very much a part of a rigorous and correctly used methodology. Every outcome MUST first be settled, code should never be broken.
    * I would actively have to rewrite the code to use testing and I consider that, when time has also been mentioned, a waste of resources.
    
-Thank you for reading. Documentation is so much more than a professional solution, it is it's heart.
+***
+
+### Licence
+
+The code in this brance is licenced under the GNU Lesser General Public License v3.0. This entitles you to use it for Free Software or evaluation, it *is* copylefted.
+See [this link](https://www.gnu.org/licenses/lgpl-3.0.en.html) to read about the licence. If this interests you - read the book "Rebel Code: Linux And The Open Source Revolution" by Gyln Moody. I hope you find it inspiring.
+
+Thank you for reading. Documentation is so much more than a professional solution, it is it's very heart.
