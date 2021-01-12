@@ -193,9 +193,9 @@ The code is not modularised because this was not asked in the specification.
 
 ### Part two of the solution - testing the objects in the array for validity (the verification process)
 
-The standard testing framework used in Node.JS and JavaScript is Mocha. A subtle equivalent to JUint is Chai... 
+The standard testing framework used in Node.JS and JavaScript is Mocha. A subtle equivalent to JUint is Chai... Although perf_hooks is also there for testing, as we have mentioned above.
 
-Testing relies on assertions, expectations and valid data. The simple way of thinking about testing is to obtain the correct data or answer (information), create an assertion - a functional switch: one direction on a true assertion and one direction on a false assertion and to write code to compare the answer computed with the correct result. 
+Testing relies on assertions, expectations, valid data and time. The simple way of thinking about testing is to obtain the correct data or answer (information), create an assertion - a functional switch: one direction on a true assertion and one direction on a false assertion and to write code to compare the answer computed with the correct result. 
 This should fully test the logic used. Testing alone will not deliver performance analysis or logic critique, although some philosophies hypothesise that test driven development will stress the programmer much less and result in systematically improved logic and therefore improved performance.
 
 These testing frameworks operate by throwing errors. They can be handled with Promises, or with a try/catch clause. Errors MUST be handled correctly.
@@ -206,7 +206,7 @@ Testing here has only been used to test performance, as results were of type Pro
    * The task had two requirements. Logging out an answer is NOT the same as running a development mode test, as it defies efficient and is so much against the open-source (efficiency leading) methodology, a subset of the Free Software Movement... However, if the answer is right, it can be just as valid.
    * The specification asked for testing to be considered and so performance testing is a valid consideration and so, consider this a true solution.
    * Unit testing is designed for TDD and math - it is slightly overdone if used to test type of a result that has already been redacted. However if TDD is used, it is very much a part of a rigorous and correctly used methodology. Every outcome MUST first be settled, code should never be broken.
-   * I would actively have to rewrite the code to use testing and I consider that, when time has also been mentioned, a waste of resources.
+   * I would actively have to rewrite the code to use testing and I consider that, when time has also been confined, a waste of resources. I am happy to use TDD should the task be set again with that constraint.
    
 ***
 
