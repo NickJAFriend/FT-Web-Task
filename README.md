@@ -212,7 +212,7 @@ Testing here has only been used to test performance, as results were of type Pro
 
 ### Licence
 
-The code in this brance is licenced under the GNU Lesser General Public License v3.0. This entitles you to use it for Free Software or evaluation, it *is* copylefted.
+The code in this brance is licenced under the GNU Lesser General Public License v2.1. This entitles you to use it for Free Software or evaluation, it *is* copylefted.
 See [this link](https://www.gnu.org/licenses/lgpl-3.0.en.html) to read about the licence. If this interests you - read the book "Rebel Code: Linux And The Open Source Revolution" by Gyln Moody. I hope you find it inspiring.
 
 Thank you for reading. Documentation is so much more than a professional solution, it is it's very heart.
