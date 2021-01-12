@@ -233,4 +233,4 @@ You can add a non JSON link or a broken link to test that it works sufficiently.
 The code in this brance is licenced under the GNU Lesser General Public License v2.1. This entitles you to use it for Free Software or evaluation, it *is* copylefted.
 See [this link](https://www.gnu.org/licenses/lgpl-3.0.en.html) to read about the licence. If this interests you - read the book "Rebel Code: Linux And The Open Source Revolution" by Gyln Moody. I hope you find it inspiring.
 
-Thank you for reading. Documentation is so much more than development, it is it's very heart, it's longevity.
+Thank you for reading. Documentation is so much more than development, it is it's very heart, it is it's longevity.
