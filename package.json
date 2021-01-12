@@ -7,7 +7,8 @@
     "node-fetch": "^1.7.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified... See output of main function for performance testing result\" && exit 1"
+    "test": "echo \"Error: no test specified... See output of main function for performance testing result\" && exit 1",
+    "start": "node main.js"
   },
   "author": "Due to requirements of the task it is expected that I do not use my name...",
   "license": "lgpl-3.0",
