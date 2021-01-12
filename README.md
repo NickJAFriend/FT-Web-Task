@@ -189,7 +189,9 @@ requestMultipleUrls(urls).then(urlContent => {
 })
 ```
 
-The code is not modularised because this was not asked in the specification.
+The code is not modularised because this was not asked in the specification. Using export module code handles this... [See this link for info](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
+
+***
 
 ### Part two of the solution - testing the objects in the array for validity (the verification process)
 
@@ -210,9 +212,25 @@ Testing here has only been used to test performance, as results were of type Pro
    
 ***
 
+### Part Three of the Solution - running the code
+
+Download and install Node.JS and NPM (Node Package Manager) if you haven't already. 
+Download the entire respository as a ZIP file. Unarchive it and then load it in your terminal or command prompt.
+Once in the right directory, run the following code.
+
+```
+npm install
+npm start
+```
+
+This should then echo the results into the terminal or command prompt in front of you. If you wish to test the code for error handling, simply change the links...
+You can add a non JSON link or a broken link to test that it works sufficiently. 
+
+***
+
 ### Licence
 
 The code in this brance is licenced under the GNU Lesser General Public License v2.1. This entitles you to use it for Free Software or evaluation, it *is* copylefted.
 See [this link](https://www.gnu.org/licenses/lgpl-3.0.en.html) to read about the licence. If this interests you - read the book "Rebel Code: Linux And The Open Source Revolution" by Gyln Moody. I hope you find it inspiring.
 
-Thank you for reading. Documentation is so much more than a professional solution, it is it's very heart.
+Thank you for reading. Documentation is so much more than development, it is it's very heart, it's longevity.
