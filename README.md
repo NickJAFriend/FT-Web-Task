@@ -58,7 +58,7 @@ To calculate the average time the computation occurs in you can use the same app
 
 ***
 
-### Part one of the solution -> Fetching the results of the urls in JSON, placing them in an array and returning them as a promise...
+### Part one of the solution - Fetching the results of the urls in JSON, placing them in an array and returning them as a promise...
 
 Node.JS includes an http interface but the joy of using Node.JS is the middleware that is available so simply via the require interface and the node package manager (NPM). 
 The 'http' interface is a joy to use but it includes both client and server architecture and so isn't entirely suitable for a lean approach to fetching data.
