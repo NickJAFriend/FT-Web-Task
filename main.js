@@ -21,14 +21,14 @@ function requestMultipleUrls(urls){
 }
 
 function parseJSON(response) {
-    return response.json();
+    return response.json()
 }
   
 function checkStatus(response){
     if(response.ok){
-        return Promise.resolve(response);
+        return Promise.resolve(response)
     } else{
-        return Promise.reject(new Error(response.statusText));
+        return Promise.reject(new Error(response.statusText))
     }
 }
 
